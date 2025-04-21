@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 500;
+    background-color: #000000;
+    color: #FFFFFF;
+
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#oxide {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    width: 120px;
+    transform: scaleX(-1) rotate(180deg);
+
+    touch-action: manipulation;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+    min-height: 100%;
+    height: auto !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > div {
+    font-size: 50px;
+}
